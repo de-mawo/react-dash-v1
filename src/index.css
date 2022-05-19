@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root {
+    --header-height: 3rem;
+    --nav-width: 4.25rem;
+    --first-color: #092a85;
+    --body-color: #f3f5fa;
+    --grey-color: #637381;
+    --purple-color: #8069f2;
+    --light-color: #EEEEEE;
+    --green-color: #00ab55;
+    --light-blue-color: #D6E5FA;
+    --yellow-color: #fcd53b;
+    --blue-color: #265df1;
+    --red-color: #ef5b5b;
+    --body-font: "Nunito", sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 1rem;
+    font-family: var(--body-font);
+    color: var(--grey-color);
+    font-size: var(--normal-font-size);
+    transition: 0.5s;
+    background-color: var(--body-color);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  button {
+    outline: 0 !important;
+  }
+  .ptb-100 {
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  }
+  .pt-100 {
+    padding-top: 6.25rem;
+  }
+  .pt-200 {
+    padding-top: 12.5rem;
+  }
+  .pb-100 {
+    padding-bottom: 6.25rem;
+  }
+  .pb-70 {
+    padding-bottom: 4.4rem;
+  }
+  
+  
+  
+  /* PAGES */
+  .page__main{
+    padding-top: 2.25rem; 
+  }
+  
